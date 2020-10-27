@@ -51,15 +51,6 @@ function setup() {
 	paper = new Paper(200,450,40);
 	ground = new Ground(width/2,670,width,20);
 
-	var render = Render.create({
-		element : document.body,
-		engine : engine,
-		option : {
-			width : 1200,
-			height : 700,
-			wireframes : false
-		}
-	});
 	Engine.run(engine);
   
 }
